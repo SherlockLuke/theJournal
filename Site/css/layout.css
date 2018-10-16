@@ -1,0 +1,17 @@
+
+
+/* LOGIN PAGE */
+
+#login-header, #signup-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#login-wrapper, #signup-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* SIGNUP PAGE */

@@ -1,0 +1,77 @@
+/********************************* SIGNUP PAGE *******************************/
+
+/******************************** LOGIN PAGE *****************************/
+
+#login-header, #signup-header {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+
+#login-header img, #signup-header img {
+    width: 150px;
+    padding: 10px;
+}
+
+#login-header a, #signup-header a {
+    color: #80bd9e;
+}
+
+
+#login-wrapper, #signup-wrapper {
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+#login-wrapper h2, #signup-wrapper h2 {
+    font-size: 25px;
+    padding: 10px 0;
+    color: #f98866;
+}
+
+#login-wrapper p, #signup-wrapper p {
+    font-size: 16px;
+    padding: 10px 0;;
+    color: #888;
+}
+
+#login-wrapper span, #signup-wrapper span {
+    font-size: 20px;
+    color: #80bd9e;
+}
+
+#login-wrapper .data, #signup-wrapper .data {
+    width: 95%;
+    height: 25px;
+}
+
+#login-wrapper .btn, #signup-wrapper .btn {
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+    padding: 5px 15px;
+    background-color: #ff420e;
+    border: none;
+    border-radius: 5px;
+}
+
+#login-wrapper .forgot {
+
+}
+
+#login-wrapper .google, #signup-wrapper .google {
+    align-self: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+#login-footer, #signup-footer {
+    width: 100%;
+    text-align: center;
+    color: #888;
+}
