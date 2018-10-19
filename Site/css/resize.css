@@ -1,5 +1,36 @@
 
 
 @media only screen and (max-width: 600px) {
-    
+    body {
+        background-image: none;
+    }
+
+    #toolbar nav {
+        display: none;
+    }
+
+    #container {
+        flex-direction: column;
+    }
+
+    .left {
+        display: none; 
+    }
+
+    /* LOGIN AND SIGNUP PAGE */
+
+    #login-header, #signup-header, #contact-header, #about-header, #home-header {
+        flex-direction: column;
+    }
+
+    #contact-header nav, #about-header nav, #home-header nav {
+        width: 100%;
+    }
+
+    #login-wrapper, #signup-wrapper {
+        width: 60%;
+        margin: 30px auto;
+        padding: 20px;
+        
+    }
 }

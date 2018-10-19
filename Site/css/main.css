@@ -1,77 +1,186 @@
-/********************************* SIGNUP PAGE *******************************/
+body {
+    background-image: url("../images/back.jpg");
+    background-repeat: repeat-y;
+    max-width: 100%;
+}
+/******************************** USER PAGE *****************************/
 
+#toolbar  {
+    padding: 10px 30px;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+/* #toolbar img {
+    width: 20px;
+    height: 30px;
+} */
+
+#toolbar nav {
+    padding: 0 50px;
+}
+
+#container {
+    width: 100%;
+    padding: 10px;
+}
+
+#container h3 {
+    color: #f98866;
+    padding: 30px 0;
+}
+
+#container a {
+    color: #80bd9e;
+}
+
+.left {
+    padding: 10px;
+}
+
+.left img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.left li {
+    padding: 2px 5px;
+    /* color: #7689fc; */
+}
+
+.center {
+    padding: 10px 10px;
+    /* box-shadow: 0px 0px 5px #ccc; */
+    /* background-color: #fff; */
+}
+
+.center #post {
+    width: 95%;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px;
+    color: #888;
+}
+
+.center h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #888;
+    padding: 20px;
+}
+
+.right {
+    padding: 10px;
+}
+
+/******************************** HOME PAGE *****************************/
+/******************************** SIGNUP PAGE *******************************/
+/******************************** CONTACT PAGE *****************************/
+/******************************** ABOUT PAGE *****************************/
 /******************************** LOGIN PAGE *****************************/
 
-#login-header, #signup-header {
-    border-bottom: 1px solid #ccc;
+#login-header, #signup-header, #contact-header, #about-header, #home-header {
+    /* border-bottom: 1px solid #ccc; */
+    box-shadow: 0px 0px 5px #ccc;
     padding: 10px;
     width: 100%;
 }
 
-#login-header img, #signup-header img {
+#login-header img, #signup-header img, #contact-header img, #about-header img, #home-header img {
     width: 150px;
     padding: 10px;
 }
 
-#login-header a, #signup-header a {
+#login-header a, #signup-header a, #home-header a, #about-header a, #contact-header a {
     color: #80bd9e;
+    /* text-transform: uppercase; */
 }
 
+#login-header a:hover, #signup-header a:hover {
+    text-decoration-line: underline; 
+}
 
-#login-wrapper, #signup-wrapper {
+#contact-header nav, #about-header nav, #home-header nav {
+    width: 50%;
+}
+
+#login-wrapper, #signup-wrapper, #contact-wrapper, #about-wrapper {
     width: 40%;
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 20px;
-    /* border: 1px solid #ccc; */
     border-radius: 10px;
-    box-shadow: 0px 0px 5px #ccc;
+    /* box-shadow: 0px 0px 5px #ccc; */
 }
 
-#login-wrapper h2, #signup-wrapper h2 {
+#login-wrapper h2, #signup-wrapper h2, #contact-wrapper h2, #about-wrapper h2 {
     font-size: 25px;
     padding: 10px 0;
     color: #f98866;
 }
 
-#login-wrapper p, #signup-wrapper p {
+#login-wrapper p, #signup-wrapper p, #login-wrapper p, #contact-wrapper p {
     font-size: 16px;
     padding: 10px 0;;
     color: #888;
 }
 
-#login-wrapper span, #signup-wrapper span {
-    font-size: 20px;
+#login-wrapper span, #signup-wrapper span, #contact-wrapper span, #about-wrapper span {
+    font-size: 19px;
     color: #80bd9e;
 }
 
-#login-wrapper .data, #signup-wrapper .data {
+#login-wrapper .data, #signup-wrapper .data, #contact-wrapper .data, #about-wrapper .data {
     width: 95%;
     height: 25px;
+    background-color: transparent;
+    outline-color: #ccc;
+    border: 1px solid #ccc;
 }
 
-#login-wrapper .btn, #signup-wrapper .btn {
+#contact-wrapper .textarea {
+    width: 95%;
+    background-color: transparent;
+}
+
+#login-wrapper .btn, #signup-wrapper .btn, #contact-wrapper .btn {
     font-size: 15px;
     cursor: pointer;
     color: #fff;
     padding: 5px 15px;
-    background-color: #ff420e;
+    background-color: #f98866;
     border: none;
     border-radius: 5px;
 }
 
-#login-wrapper .forgot {
+#login-wrapper .btn:hover, #signup-wrapper .btn:hover, #contact-wrapper .btn:hover {
+    background-color: #ff420e;
+}
 
+#login-wrapper .forgot:hover {
+    text-decoration-line: underline;
 }
 
 #login-wrapper .google, #signup-wrapper .google {
     align-self: center;
     border: 1px solid #ccc;
     padding: 10px;
-    margin: 0 20px;
+    margin: 10px 0;
+    width: fit-content;
 }
 
-#login-footer, #signup-footer {
+#login-wrapper .google:hover, #signup-wrapper .google:hover {
+    text-decoration-line: underline;
+}
+
+#login-wrapper .google img, #signup-wrapper .google img {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+}
+
+#login-footer, #signup-footer, #contact-footer, #about-footer {
     width: 100%;
     text-align: center;
     color: #888;
+    margin: 10px 0;
 }
