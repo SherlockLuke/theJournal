@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 600px) {
     body {
-        background-image: none;
+        /* background-image: none; */
     }
 
     #toolbar nav {
@@ -11,10 +11,6 @@
 
     #container {
         flex-direction: column;
-    }
-
-    .left {
-        display: none; 
     }
 
     /* LOGIN AND SIGNUP PAGE */
@@ -32,5 +28,20 @@
         margin: 30px auto;
         padding: 20px;
         
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    body {
+        /* background-image: none; */
+    }
+    #container {
+        flex-direction: column;
+        
+    }
+
+    .left {
+        display: none; 
     }
 }
