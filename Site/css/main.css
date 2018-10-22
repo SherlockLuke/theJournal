@@ -23,6 +23,11 @@ body {
     padding: 0 50px;
 }
 
+.input {
+    border: 1px solid #ccc;
+    background: transparent;
+}
+
 #container {
     width: 100%;
     padding: 10px;
@@ -51,6 +56,7 @@ body {
     /* color: #7689fc; */
 }
 
+
 .center {
     padding: 10px 40px;
     box-shadow: 0px 5px 10px #ccc;
@@ -75,6 +81,14 @@ body {
 
 .right {
     padding: 10px 50px;
+}
+
+.right .btn {
+    margin: 10px 0;
+}
+
+.right .more {
+    text-decoration: underline;
 }
 
 /******************************** HOME PAGE *****************************/
@@ -146,7 +160,7 @@ body {
     background-color: transparent;
 }
 
-#login-wrapper .btn, #signup-wrapper .btn, #contact-wrapper .btn {
+#login-wrapper .btn, #signup-wrapper .btn, #contact-wrapper .btn, .btn {
     font-size: 15px;
     cursor: pointer;
     color: #fff;
@@ -156,7 +170,7 @@ body {
     border-radius: 5px;
 }
 
-#login-wrapper .btn:hover, #signup-wrapper .btn:hover, #contact-wrapper .btn:hover {
+#login-wrapper .btn:hover, #signup-wrapper .btn:hover, #contact-wrapper .btn:hover, .btn:hover {
     background-color: #ff420e;
 }
 
