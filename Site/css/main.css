@@ -14,10 +14,13 @@ body {
     box-shadow: 0px 0px 5px #ccc;
 }
 
-/* #toolbar img {
-    width: 20px;
-    height: 30px;
-} */
+#toolbar a {
+    color: #888;
+}
+
+#toolbar a:hover {
+    color: #80bd9e;
+}
 
 #toolbar nav {
     padding: 0 50px;
