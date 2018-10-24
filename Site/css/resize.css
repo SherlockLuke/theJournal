@@ -1,11 +1,11 @@
 
 
 @media only screen and (max-width: 600px) {
-    body {
-        /* background-image: none; */
-    }
+    /* body {
+        background-image: none; 
+    } */
 
-    #toolbar nav {
+    #toolbar {
         display: none;
     }
 
@@ -33,9 +33,10 @@
 
 @media only screen and (max-width: 1000px) {
 
-    body {
-        /* background-image: none; */
-    }
+    /* body {
+        background-image: none; 
+    } */
+    
     #container {
         flex-direction: column;
         
