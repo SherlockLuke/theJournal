@@ -1,9 +1,5 @@
 
-
 @media only screen and (max-width: 600px) {
-    /* body {
-        background-image: none; 
-    } */
 
     #toolbar {
         display: none;
@@ -33,14 +29,16 @@
 
 @media only screen and (max-width: 1000px) {
 
-    /* body {
-        background-image: none; 
-    } */
+    #login-header, #signup-header, #contact-header, #about-header, #home-header {
+        box-shadow: 0px 0px 5px #ccc;
+    }
     
     #container {
         flex-direction: column;
         
     }
+
+
 
     .left {
         display: none; 

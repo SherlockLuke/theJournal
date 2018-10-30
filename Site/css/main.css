@@ -2,7 +2,6 @@ body {
     background-image: url("../images/back.png");
     background-repeat: repeat-y;
     background-size: cover;
-    /* filter: blur(1px); */
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -64,7 +63,6 @@ body {
 .center {
     padding: 10px 40px;
     box-shadow: 0px 5px 10px #ccc;
-    /* background-color: #fff; */
 }
 
 .center #post {
@@ -102,8 +100,6 @@ body {
 /******************************** LOGIN PAGE *****************************/
 
 #login-header, #signup-header, #contact-header, #about-header, #home-header {
-    /* border-bottom: 1px solid #ccc; */
-    box-shadow: 0px 0px 5px #ccc;
     padding: 10px;
     width: 100%;
 }
