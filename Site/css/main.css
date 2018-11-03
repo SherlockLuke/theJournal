@@ -6,6 +6,10 @@ body {
     overflow-x: hidden;
     font-family: cursive;
 }
+
+a:hover {
+    text-decoration: underline;
+}
 /******************************** USER PAGE *****************************/
 
 #toolbar  {
